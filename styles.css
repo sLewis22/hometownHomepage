@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+}
+#hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: space-between;
+    background-image: url('https://www.stetson.edu/home/media/images/og-image.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 10px solid #dda15e;
+    height: 343px;
+}
+#hero-heading{
+    background-color: #dda15e;
+    color: antiquewhite;
+    font-family: 'Graduate', serif;
+    font-size: 36px;
+}
+#hero-descript{
+    background-color: #dda15e;
+    color: antiquewhite;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 26px;
+}
+#activity-section{
+    background-color: #606c38;    
+    border-bottom: 5px solid #283618;
+    display: flex;
+    flex-direction: column;
+
+}
+#activity-section-heading{
+
+    color: #dda15e;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 26px;
+    text-align: center;    
+    margin: 1% 0 0 0;
+}
+#activity-img-heading{
+    display: flex;
+    justify-content: space-around;
+   margin: 2% 0 0 0;
+}
+.activity-img-heading{
+    background-color: #283618;
+    color: #bc6c25;
+    font-size: 20px;
+    font-family: 'Graduate', serif;
+}
+#activity-img-section{
+    display: flex;
+    justify-content: space-around;
+    margin: 1% 0 0 0;
+}
+.activity-img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+#img-athens{
+    background-image: url("images/athens.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+#img-athens:hover{
+    background-image:url("images/athensbw.jpg");
+    background-position: center center;
+    background-size: cover;
+    border: 5px solid #bc6c25;
+    border-radius: 10%;
+    width: 200px;
+    height: 200px;
+}
+#img-chess{
+    background-image: url("images/chessPark.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+#img-chess:hover{
+    background-image:url("images/chessParkbw.jpg");
+    background-position: center center;
+    background-size: cover;
+    border: 5px solid #bc6c25;
+    border-radius: 10%;
+    width: 200px;
+    height: 200px;
+}
+#img-davinci{
+    background-image: url("images/davinci.jpg");
+    background-position: center center;
+    background-size: cover;
+   
+}
+#img-davinci:hover{
+    background-image:url("images/davincibw.jpg");
+    background-position: center center;
+    background-size: cover;
+    border: 5px solid #bc6c25;
+    border-radius: 10%;
+    width: 200px;
+    height: 200px;
+}
+#img-main-street{
+    background-image: url("images/downtown.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+#img-main-street:hover{
+    background-image:url("images/downtownbw.jpg");
+    background-position: center center;
+    background-size: cover;
+    border: 5px solid #bc6c25;
+    border-radius: 10%;
+    width: 200px;
+    height: 200px;
+}
+#activity-descript-section{
+    display: flex;
+    justify-content: space-around;
+}
+.activity-descript{
+    color:#283618;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 0 0 1px #283618;
+    width: 175px;
+}
+#guide-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite; 
+}
+#guide-img{
+    background-image: url("images/staci.png");
+    background-position: center center;
+    background-size: cover;
+    border: 1px solid #dda15e;
+    border-radius: 25%;
+    margin: 0 5px 0 0;
+    height: 200px;
+    width: 200px;
+}
+#guide-descript{
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 20px;
+    margin-left: 2px;
+    text-align: center;
+    width: 200px;
+}
+#guide-descript-heading{
+    border-bottom: 2px solid #bc6c25;
+}
+/*Font Families
+font-family: 'Didact Gothic', sans-serif;
+font-family: 'Graduate', serif;*/
+/*Utility Classes
+border: 1px dashed blue*/
